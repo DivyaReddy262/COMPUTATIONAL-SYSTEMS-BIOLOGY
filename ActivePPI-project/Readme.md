@@ -1,9 +1,9 @@
-## ActivePPI-Based Pathway Activity Analysis
-# Overview:
+# ActivePPI-Based Pathway Activity Analysis
+## Overview:
 This project implements a pathway activity analysis framework inspired by the ActivePPI method, which integrates protein-protein interaction (PPI) networks with expression data to identify biologically significant pathways.
 The objective is to evaluate pathway activity across different biological conditions and compare the performance of multiple distance metrics.
 
-# Objectives:
+## Objectives:
 - Apply ActivePPI-based pathway activity analysis
 - Compare different distance metrics:
 Canberra
@@ -16,7 +16,7 @@ Minkowski
 - Breast Cancer (BRCA)
 - SARS-CoV-2
 
-# Methodology
+## Methodology
 The approach is based on the ActivePPI framework:
 - Protein interactions are modeled using a network-based approach
 - Pathways are evaluated based on activity scores
@@ -24,7 +24,7 @@ The approach is based on the ActivePPI framework:
 - Statistical significance is assessed using p-values
 - Results are visualized using plots and heatmaps
 
-# Results & Observations
+## Results & Observations
 Distance Metric Comparison
 - Euclidean & Manhattan:
 Lower variance
@@ -43,7 +43,7 @@ Lower variability
 BRCA dataset shows:
 Higher variation across pathways
 
-# Visualizations
+## Visualizations
 - Distribution of p-values
 Comparison across distance metrics
 - Pathway Activity
@@ -53,7 +53,7 @@ Significance threshold highlighted
 Top pathways across metrics
 Comparative visualization
 
-# Note on Implementation
+## Note on Implementation
 - This project is based on the ActivePPI framework described in the original research paper.
 - The analysis reproduces and extends the methodology using custom scripts for visualization and comparison of distance metrics.
 - Original work:
